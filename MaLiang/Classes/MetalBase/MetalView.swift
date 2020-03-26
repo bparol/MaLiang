@@ -117,9 +117,9 @@ open class MetalView: MTKView {
     }
 
     // render target for rendering contents to screen
-    internal var screenTarget: RenderTarget?
+    public var screenTarget: RenderTarget?
     
-    private var commandQueue: MTLCommandQueue?
+    public var commandQueue: MTLCommandQueue?
 
     // Uniform buffers
     private var render_target_vertex: MTLBuffer!
